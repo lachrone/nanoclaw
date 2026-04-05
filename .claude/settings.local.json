@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -p \"require\\('uuid'\\).v4\\(\\)\")",
+      "Bash(node -e \"console.log\\(Date.now\\(\\).toString\\(36\\)\\)\")"
+    ]
+  }
+}
